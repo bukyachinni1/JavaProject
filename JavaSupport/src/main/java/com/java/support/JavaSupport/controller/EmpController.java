@@ -30,7 +30,7 @@ public class EmpController {
 	@Autowired(required = true)
 	EmployeeImpl employee;
 
-	@GetMapping(value = "/details/EMP1234")
+	@GetMapping(value = "/details/EMP900060")
 	public ResponseEntity<List<EmployeeModel>> getEmpDetails() {
 		List<EmployeeModel> resp=employee.getEmpDetails();
 		logger.info("EmployeeImpl entering >>>>");
