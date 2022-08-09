@@ -17,7 +17,7 @@ public class EmployeeModel1 {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAddres() {
+	public String getAddres() { 
 		return addres;
 	}
 	public void setAddres(String addres) {

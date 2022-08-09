@@ -71,7 +71,7 @@ public class EmployeeModel {
 	}
 
 	public void setDepartment(String department) {
-		this.department = department ;
+		this.department = department;
 	}
 
 }
